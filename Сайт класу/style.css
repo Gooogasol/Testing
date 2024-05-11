@@ -1,0 +1,71 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+    height:10%;
+    padding: 5%px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+    flex-grow: 1;
+}
+
+.like_this{
+    display: grid;
+    grid-gap: 10px;
+    padding:1%;
+    justify-content: flex-start;
+    align-content: flex-start;
+    position: relative;
+    margin-right: 1%;
+}
+.image{
+    width: 20%;
+    height: 100%;
+    border-radius: 200px;
+    position: relative;
+    right: 10px;
+}
+.cool_t{
+    font-family: 'Kalnia', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Single Day', cursive;
+    font-size: larger;
+    display: flex;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+a{
+    font-size: larger;
+}
+
+.menu_elements{
+    color: #000000;
+    font-family: Inter;
+    font-size: 120%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 8%; /* 120% */
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight:900;
+}
+
+:hover{
+    font-size: 27px;
+    transition:0.7s;
+    color: purple;
+    text-decoration: none;
+}
